@@ -2,7 +2,7 @@ import React from 'react';
 
 const Table = () => {
     return (
-        <div>
+        <div className='mb-10'>
             <div className="overflow-x-auto">
                 <table className="table table-zebra w-full bg-red-600">
 
