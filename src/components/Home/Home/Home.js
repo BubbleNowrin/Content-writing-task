@@ -10,7 +10,7 @@ const Home = () => {
                         <h1 class="mb-3 text-3xl font-bold text-gray-900 md:leading-tight md:text-3xl font-serif uppercase" itemprop="headline" title="">
                             Getting battery stats of system using python
                         </h1>
-                        <p class="text-base text-semibold">By teckturt official on 12/9/2022</p>
+                        <p class="text-base text-semibold">By <b>teckturt official</b> on 12/9/2022</p>
                     </div>
                     <div class="flex items-center mb-6 space-x-2">
                         <p class="text-black font-bold">Share this article</p>

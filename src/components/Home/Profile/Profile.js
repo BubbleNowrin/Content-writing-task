@@ -9,13 +9,13 @@ const Profile = () => {
         <div>
             <div className="drawer drawer-mobile">
                 <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-                <div className="drawer-content flex flex-col items-center justify-center">
+                <div className="drawer-content flex flex-col items-center justify-center ">
                     <div className='mx-auto'>
-                        <div className="max-w-md p-8 sm:flex items-center sm:space-x-6 mx-auto my-auto mt-10 border">
+                        <div className="max-w-md p-8 sm:flex items-center sm:space-x-6 mx-auto my-auto mt-10 border border-dashed border-red-600">
                             <div className="flex-shrink-0 w-full mb-6 h-44 sm:h-32 sm:w-32 sm:mb-0">
                                 <img src={img} alt="" className="object-cover object-center w-full h-full rounded" />
                             </div>
-                            <div className="flex flex-col  space-y-4">
+                            <div className="flex flex-col space-y-4">
                                 <div>
                                     <h2 className="text-2xl font-semibold text-red-600">Nowrin Mim</h2>
                                     <span className="text-sm ">User Id: 24</span>
@@ -40,18 +40,20 @@ const Profile = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className='mt-20'>
+                            <hr className='mb-10' />
                             <h1 className='text-center font-semibold text-lg mb-3 text-red-600'>Turtcoins History(Earning)</h1>
                             <Table></Table>
                         </div>
                     </div>
                 </div>
-                <div className="drawer-side">
+                <div className="drawer-side ">
                     <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-                    <ul className="menu p-4 w-80 bg-base-100 text-base-content">
+                    <ul className="menu p-4 w-80 text-base-content bg-gray-200">
 
-                        <div>
-                            <div className="h-full p-3 space-y-2 w-60 drawer-side">
+                        <div >
+                            <div className="h-full p-3 space-y-2 w-60 drawer-side ">
                                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
                                 <div className="flex items-center p-2 space-x-4">
                                     <div class="avatar online placeholder">

@@ -4,7 +4,7 @@ const Table = () => {
     return (
         <div>
             <div className="overflow-x-auto">
-                <table className="table table-zebra w-full">
+                <table className="table table-zebra w-full bg-red-600">
 
                     <thead>
                         <tr>
